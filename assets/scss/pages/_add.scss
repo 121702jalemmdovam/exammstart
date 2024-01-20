@@ -1,0 +1,98 @@
+.addcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .formdiv{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        #postform{
+width: 100%;
+        
+            button{
+                background-color:black;
+                padding: 10px;
+                border: 2px solid white;
+                color: white;
+                width: 30%;
+                border-radius: 0px;
+            }
+            button:hover{
+                background-color: white;
+            color: black;
+            transition: 0.3s;
+            border: 2px solid black;
+            } 
+        }
+        .searchsort{
+            select{
+                margin-bottom: 20px;
+                background-color:black;
+             
+                padding: 10px;
+                border: 2px solid white;
+                color: white;
+                width: 45%;
+                border-radius: 0px;
+            }
+            select:hover{
+                background-color: white;
+                color: black;
+                transition: 0.3s;
+                border: 2px solid black;
+            }
+            form{
+                input{
+                    padding: 10px;
+                }
+                button{
+                    background-color:black;
+                    padding: 10px;
+                    border: 2px solid white;
+                    color: white;
+                    width: 25%;
+                    border-radius: 0px;
+                }
+                button:hover{
+                    background-color: white;
+                color: black;
+                transition: 0.3s;
+                border: 2px solid black;
+                } 
+            }
+        }
+    }
+}
+.adddiv{
+    width: 50%;
+}
+table{
+    margin-top: 30px;
+    border: 1px solid black;
+width: 100%;
+    tr{
+        padding: 10px;
+        width: 400px;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        button{
+            background-color:black;
+            padding: 10px;
+            border: 2px solid white;
+            color: white;
+        }
+        button:hover{
+            background-color: white;
+        color: black;
+        transition: 0.3s;
+        border: 2px solid black;
+        }
+    }
+   
+}
